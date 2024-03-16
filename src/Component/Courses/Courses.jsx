@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import courseData from '../../CourseData/courses.json'
 import Card from '../Card/Card'
 import { courseHeading, courseHeadingh1, courseHeadingh4, courses, coursesCardContainer, coursesContainer } from './courseStyle';
@@ -16,12 +17,14 @@ function Courses() {
                 {courseData.map((course, index) => {
                     return (
                         <div key={index} className={coursesCardContainer}>
-                            <Card
-                                key={course.id}
-                                id={course.id}
-                                title={course.title}
-                                imgUrl={course.img}
-                            />
+                            <Link to={`/courses/${course.id}`}>
+                                <Card
+                                    key={course.id}
+                                    id={course.id}
+                                    title={course.title}
+                                    imgUrl={course.img}
+                                />
+                            </Link>
                         </div>
                     )
                 })}
