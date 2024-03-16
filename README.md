@@ -16,7 +16,7 @@ to access educational content and resources.
 
 - **Dynamic Routing**: React Router is utilized to create a smooth and efficient navigation experience, allowing users to navigate between different sections of the application seamlessly.
 
-- **Responsive Design**: Tailwind CSS is employed to create a responsive and visually appealing user interface, ensuring an optimal experience across different devices and screen sizes.
+- **Responsive Design**: Tailwind CSS is to create a responsive and visually appealing user interface, ensuring an optimal experience across different devices and screen sizes.
 
 - **Course Catalog**: The platform offers a comprehensive catalog of courses categorized by subject, level, and popularity, enabling learners to easily discover and enroll in courses that match their interests and learning goals.
 
@@ -29,16 +29,16 @@ to access educational content and resources.
 
 ## Technologies
 
-- React: A JavaScript library for building user interfaces
-- React Router: A routing library for React applications, enabling dynamic routing and navigation
-- Tailwind CSS: A utility-first CSS framework for rapidly building custom designs
+- [**React**](https://react.dev/learn) : A JavaScript library for building user interfaces
+- [**React Router**](https://reactrouter.com/en/main/start/tutorial) : A routing library for React applications, enabling dynamic routing and navigation
+- [**Tailwind CSS**](https://tailwindcss.com/docs/installation) : A utility-first CSS framework for rapidly building custom designs
 <!-- - Firebase: A comprehensive app development platform used for authentication, hosting, and data storage -->
 
 
 
 ## Installation
 
-Provide step-by-step instructions for installing and setting up the project locally. This typically includes:
+Step-by-step instructions for installing and setting up the project locally:
 
 1. Prerequisites
     - Nodejs
@@ -47,10 +47,14 @@ Provide step-by-step instructions for installing and setting up the project loca
     ```bash
     git clone https://github.com/Sam21sop/E-Learning-App.git
 
-3. Installing dependencies
+3. Change Working directory
+    ```bash
+    cd E-Learning-App
+
+4. Installing dependencies
     ```bash
     npm install
 
-4.Running the development server
+5. Running the development server
     ```bash
     npm run dev
